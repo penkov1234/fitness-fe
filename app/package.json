@@ -1,0 +1,88 @@
+{
+    "name": "unity-games",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "^4.8.1",
+        "@material-ui/icons": "^4.5.1",
+        "@typescript-eslint/eslint-plugin": "^2.3.1",
+        "@typescript-eslint/parser": "^2.3.1",
+        "axios": "^0.19.0",
+        "babel-eslint": "^10.0.3",
+        "babel-loader": "^8.0.6",
+        "babel-plugin-named-asset-import": "^0.3.6",
+        "canvasjs": "^1.8.3",
+        "dotenv": "^8.0.0",
+        "eslint": "^6.4.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-config-react-app": "^5.0.2",
+        "eslint-loader": "2.1.2",
+        "eslint-plugin-flowtype": "^3.4.2",
+        "eslint-plugin-import": "^2.16.0",
+        "eslint-plugin-jsx-a11y": "6.2.1",
+        "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-react": "7.12.4",
+        "eslint-plugin-react-hooks": "^1.5.0",
+        "prettier": "^1.19.1",
+        "react": "^16.8.6",
+        "react-canvas-js": "^1.0.1",
+        "react-charts": "^2.0.0-beta.6",
+        "react-dom": "^16.8.6",
+        "react-flex-slick": "^0.5.0",
+        "react-modal": "^3.11.2",
+        "react-native-material-textfield": "^0.16.1",
+        "react-native-slick": "^1.0.2",
+        "react-native-web": "0.11.x",
+        "react-native-web-swiper": "^2.1.0",
+        "react-redux": "^7.1.0",
+        "react-router-dom": "^5.1.2",
+        "react-router-redux": "^4.0.8",
+        "react-router-transition": "^2.0.0",
+        "react-scripts": "3.0.1",
+        "react-slick": "^0.25.2",
+        "react-slick-slider": "^0.15.10",
+        "react-swipeable-views": "^0.13.5",
+        "react-swipeable-views-native": "^0.13.2",
+        "react-transition-group": "^4.3.0",
+        "recharts": "^2.0.0-beta.1",
+        "redux": "^4.0.4",
+        "redux-burger-menu": "^0.2.8",
+        "redux-logger": "^3.0.6",
+        "redux-persist": "^6.0.0",
+        "redux-promise-middleware": "^6.1.1",
+        "redux-thunk": "^2.3.0",
+        "slick-carousel": "^1.8.1",
+        "store": "^2.0.12",
+        "styled-components": "^5.0.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "NODE_ENV=development react-scripts build",
+        "build:dev": "NODE_ENV=development react-scripts build",
+        "build:prod": "NODE_ENV=production react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "doc": "react-docgen src -o README.md --pretty",
+        "lint": "eslint --ext .js,.jsx,.ts,.tsx \"./src/**/*.{js,jsx,ts,tsx}\" --fix",
+        "pretty": "prettier --write './src/**/*.{yml,yaml,json,ts,tsx,js,jsx,scss,css,md,html}'"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-export-default-from": "^7.8.3"
+    }
+}

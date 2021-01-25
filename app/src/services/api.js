@@ -1,0 +1,12 @@
+export const LOGIN_API = `/auth/login`;
+export const REGISTER_API = `/auth/register`;
+export const WORKOUTS_GET_FILTERED_API = `/api/users/workouts/get/all`;
+export const WORKOUTS_GET_SUBSCRIBED_API = `/api/users/workouts/get/subscribed`;
+export const SUBSCRIBE_TO_WORKOUT_API = `/api/users/workouts/subscribe`;
+export const WORKOUTS_NEW_API = `/api/users/workouts/new`;
+export const UPDATE_INFO_API = `/api/users/info/update`;
+export const GET_INFO_API = `/api/users/info/get`;
+export const GET_ALL_EXERCISES_API = `/api/exercises/all`;
+export const CHECK_FOR_SUBSCRIPTION_API = '/api/users/workouts/subscribe/check_for_subscription';
+export const WORKOUTS_UPDATE_API = '/api/users/workouts/update';
+export const GET_STATISTICS_API = '/api/users/statistics/all';

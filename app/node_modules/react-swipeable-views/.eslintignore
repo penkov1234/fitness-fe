@@ -1,0 +1,9 @@
+.git
+/.next
+/coverage
+/docs/export
+/docs/src/modules/utils/find.js
+/flow/interfaces
+/next.config.js
+lib/
+node_modules

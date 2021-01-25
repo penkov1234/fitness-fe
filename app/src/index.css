@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+    /* background-color: #7bc6c31f; */
+}
+body {
+    background-color: #e4e4e4;
+    /* line-height: 1.2em; */
+    /* background-color: #ecebeb; */
+}
+
+.MuiFormControl-root {
+    /* flex-basis: 50%; */
+    /* width: 'auto'; */
+}
+
+@font-face {
+    font-family: Helvetica-Bold;
+    src: url('assets/fonts/Helvetica Neu Bold.ttf');
+}
+
+@font-face {
+    font-family: Helvetica-Regular;
+    src: url('assets/fonts/HelveticaNeue Light.ttf');
+}
+@font-face {
+    font-family: Helvetica-Medium;
+    src: url('assets/fonts/HelveticaNeue Medium.ttf');
+}
+
+@font-face {
+    font-family: Helvetica-Thin;
+    src: url('assets/fonts/HelveticaNeue.ttf');
+}
+
+@font-face {
+    font-family: Helvetica-Light;
+    src: url('assets/fonts/HelveticaNeue Thin.ttf');
+}
+@font-face {
+    font-family: Helvetica-Italic;
+    src: url('assets/fonts/HelveticaNeueIt.ttf');
+}
+
+@font-face {
+    font-family: Helvetica-Black-Cond;
+    src: url('assets/fonts/HelveticaNeue BlackCond.ttf');
+}
+
+/* @font-face {
+    font-family: AktivGrotesk-Thin;
+    src: url('assets/fonts/AktivGrotesk-Thin.otf');
+} */
+
+.MuiPaper-root {
+    background: 'transparent';
+}
